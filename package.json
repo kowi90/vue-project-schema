@@ -1,0 +1,25 @@
+{
+  "name": "vue-project-schema",
+  "version": "0.1.0",
+  "description": "A VueJs Project schema generator",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "directory",
+    "schema",
+    "json",
+    "node"
+  ],
+  "bin": {
+    "vue-schema": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "author": "Gergő Kovács",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.2.1"
+  }
+}

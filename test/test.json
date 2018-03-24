@@ -1,0 +1,11 @@
+{
+    "testDir": {
+        "newTestDir12": {
+            "files": ["index.js", "test.vue"]
+        },
+        "newTestDir23": {
+            "files": ["new.vue"]
+        },
+        "vue-component": "testComponent"
+    }
+}
