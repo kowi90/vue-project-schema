@@ -41,16 +41,17 @@ Please note that no comments allowed in real <b>JSON files</b>, this is just an 
     "name": "tcomp1",
     //Vue components can be nested this way
     "children": [
-       {
-	"vue-component":{
-         "name": "tcompinner"
-      	}
-	},{
-      	"vue-component": {
-         "name": "tcompinner2"
-      	}
-	}
-    ]
+        {
+        	"vue-component": {
+                 "name": "tcompinner"
+            }
+        },
+        {
+          	"vue-component": {
+               "name": "tcompinner2"
+          	}
+    	}
+	]
   }
 }
 
