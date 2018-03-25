@@ -1,0 +1,11 @@
+stages:
+  - build
+  - test
+
+npm_build:
+  stage: build
+  script: npm install
+
+japa:
+  stage: test
+  script: npm run test  
