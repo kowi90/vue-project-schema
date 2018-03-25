@@ -11,8 +11,12 @@ cache:
 
 npm_build:
   stage: build
-  script: ci/npm install
+  script: npm install
+  tags:
+    - mezotur
 
 japa:
   stage: test
-  script: ci/npm run test
+  script: npm run test
+    tags:
+    - mezotur
