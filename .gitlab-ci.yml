@@ -18,5 +18,5 @@ npm_build:
 japa:
   stage: test
   script: ci/npm run test
-    tags:
+  tags:
     - fa6cab46
