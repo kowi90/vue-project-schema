@@ -1,6 +1,6 @@
 {
   "name": "vue-project-schema",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A VueJs Project schema generator",
   "main": "./lib/index.js",
   "scripts": {
