@@ -4,7 +4,7 @@
 
 https://github.com/kowi90/vue-project-schema
 ## Description
-It generates a vue directory structure and component templates based on a json schema.
+It generates a VueJS directory structure and component templates based on a json schema.
 
 ## Install
 ```bash
@@ -12,6 +12,8 @@ npm install -g vue-project-schema
 ```
 ## Usage
 ```
+vue-schema --json <json_to_parse> --supress <true|false>
+
 Options:
   --version      Show version number                                   [boolean]
   -j, --json     The JSON Schema to parse                             [required]
