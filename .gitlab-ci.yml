@@ -13,10 +13,10 @@ npm_build:
   stage: build
   script: ci/npm install
   tags:
-    - fa6cab46
+    - docker
 
 japa:
   stage: test
   script: ci/npm run test
   tags:
-    - fa6cab46
+    - docker
