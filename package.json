@@ -4,7 +4,7 @@
   "description": "A VueJs Project schema generator",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.spec.js"
   },
   "keywords": [
     "vue",
@@ -22,5 +22,10 @@
   "dependencies": {
     "colors": "^1.2.1",
     "yargs": "^11.1.0"
+  },
+  "devDependencies": {
+    "japa": "^1.0.6",
+    "memfs": "^2.8.0",
+    "rewire": "^3.0.2"
   }
 }
