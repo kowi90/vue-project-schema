@@ -1,0 +1,2 @@
+#!/bin/bash
+docker-compose -p $DOCKER_COMPOSE_ID run -e npm_config_cache=/code/.npm --user $(stat -c '%u' .) -T node npm $@

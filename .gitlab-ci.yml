@@ -2,10 +2,17 @@ stages:
   - build
   - test
 
+variables:
+  DOCKER_COMPOSE_ID: "${CI_PIPELINE_ID}_${CI_JOB_ID}"
+cache:
+  key: "$CI_PIPELINE_ID"
+  paths:
+  - node_modules
+
 npm_build:
   stage: build
-  script: npm install
+  script: ci/npm install
 
 japa:
   stage: test
-  script: npm run test  
+  script: ci/npm run test  
