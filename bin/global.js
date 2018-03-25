@@ -2,11 +2,19 @@
 
 var lib = require('../lib/index.js');
 
-// Displays the text in the console
+const argv = require('yargs')
+    .usage('Usage: $0 --json <json_to_parse> --supress <true|false>')
+    .alias('j', 'json')
+    .nargs('j', 1)
+    .describe('j', 'The JSON Schema to parse')
+    .demandOption(['j'])
+    .alias('s', 'supress')
+    .nargs('s', 1)
+    .describe('s', 'Supress process messages.')
+    .help('h')
+    .alias('h', 'help')
+    .epilog('Copyright Gergo Kovacs 2018')
+    .argv
 
-if (!(process.argv.length > 2)) {
 
-console.log('The first and only argument should be a json path!');
-return;
-}
-lib.convertJSON(process.argv.slice(2)[0]);
+lib.convertJSON(argv.j, argv.s);
