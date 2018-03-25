@@ -1,5 +1,9 @@
 # VueJs Project schema generator
 
+## Github
+
+https://github.com/kowi90/vue-project-schema
+## Description
 It generates a vue directory structure and component templates based on a json schema.
 
 ## Install
