@@ -10,8 +10,22 @@ It generates a vue directory structure and component templates based on a json s
 ```bash
 npm install -g vue-project-schema
 ```
+## Usage
+```
+Options:
+  --version      Show version number                                   [boolean]
+  -j, --json     The JSON Schema to parse                             [required]
+  -s, --supress  Supress process messages.
+  -h, --help     Show help                                             [boolean]
+
+Copyright Gergo Kovacs 2018
+
+```
 ## Example
 1. Create a "test.json" in a directory with the following content:
+<div style="color:#dd2222;background-color:#222;margin:10px;padding:10px;">    
+Please note that no comments allowed in real <b>JSON files</b>, this is just an approximate example.
+</div>
 
 ```javascript
 {
