@@ -17,4 +17,4 @@ const argv = require('yargs')
     .argv
 
 
-lib.convertJSON(argv.j, argv.s);
+lib.convertJSON(argv.j,process.cwd(), argv.s);

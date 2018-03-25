@@ -6,6 +6,15 @@
         "newTestDir23": {
             "files": ["new.vue"]
         },
-        "vue-component": "testComponent"
+        "vue-component": {
+            "name": "testComponent",
+            "children": [
+                {
+                    "vue-component": {
+                        "name": "nestedComponent"
+                    }
+                }
+            ]
+        }
     }
 }
