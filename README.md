@@ -61,7 +61,7 @@ Please note that no comments allowed in real <b>JSON files</b>, this is just an 
 // tcomp1/assets/styles
 // tcomp1/assets/styles/styles.scss
 
-// The childrens will be nested inside
+// The children will be nested inside
 // tcomp1/components
 // directory.
 
