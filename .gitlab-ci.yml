@@ -18,5 +18,5 @@ npm_build:
 japa:
   stage: test
   script: npm run test
-    tags:
+  tags:
     - mezotur
